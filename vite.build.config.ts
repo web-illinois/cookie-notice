@@ -6,9 +6,9 @@ export default defineConfig({
     build: {
         outDir: "../dist/cdn",
         lib: {
-            name: "<%= name %>",
-            entry: "<%= name %>.ts",
-            fileName: "<%= name %>",
+            name: "cookie-notice",
+            entry: "cookie-notice.ts",
+            fileName: "cookie-notice",
             formats: ["es"],
         },
         rollupOptions: {
