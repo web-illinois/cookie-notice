@@ -1,6 +1,6 @@
 {
   "name": "cookie-notice",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "This repository provides the Cookie Notice banner used by the University of Illinois.",
   "main": "index.js",
   "directories": {
@@ -18,16 +18,16 @@
     },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/techservicesillinois/cookie-notice.git"
+    "url": "git+https://github.com/web-illinois/cookie-notice.git"
   },
   "keywords": [],
   "author": "",
   "license": "NCSA",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/techservicesillinois/cookie-notice/issues"
+    "url": "https://github.com/web-illinois/cookie-notice/issues"
   },
-  "homepage": "https://github.com/techservicesillinois/cookie-notice#readme",
+  "homepage": "https://github.com/web-illinois/cookie-notice#readme",
   "devDependencies": {
     "@axe-core/playwright": "^4.10.2",
         "@playwright/test": "^1.54.1",
