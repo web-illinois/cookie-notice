@@ -3,7 +3,7 @@ import nunjucksPlugin from 'vite-plugin-nunjucks'
 import nunjucks from 'nunjucks'
 import { resolve } from 'path'
 
-const templatesDir = resolve(__dirname, 'src/web')
+const templatesDir = resolve(__dirname, 'src/test/web')
 
 const env = new nunjucks.Environment(
   new nunjucks.FileSystemLoader(templatesDir),

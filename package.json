@@ -2,13 +2,14 @@
   "name": "cookie-notice",
   "version": "2.0.0",
   "description": "This repository provides the Cookie Notice banner used by the University of Illinois.",
-  "main": "ila-cookie-banner.js",
+  "main": "js/ila-cookie-banner.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
        "dev": "vite",
-        "build": "tsc --noEmit && vite build --config vite.transpile.config.ts --emptyOutDir && vite build --config vite.build.config.ts --emptyOutDir",
+        "build_transpile_typescript": "tsc --noEmit && vite build --config vite.transpile.config.ts --emptyOutDir && vite build --config vite.build.config.ts --emptyOutDir",
+        "build": "vite build --config vite.build.config.ts --emptyOutDir",
         "preview": "vite preview",
         "prepack": "npm run build",
         "test:axe": "playwright test",
