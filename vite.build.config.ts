@@ -7,10 +7,11 @@ export default defineConfig({
         outDir: "../dist/cdn",
         lib: {
             name: "cookie-notice",
-            entry: "cookie-notice.ts",
+            entry: "cookie-notice.js",
             fileName: "cookie-notice",
             formats: ["es"],
         },
+        // TODO: Add slide-over here.
         rollupOptions: {
             output: {
                 assetFileNames: () => {
