@@ -1,6 +1,6 @@
 {
   "name": "cookie-notice",
-  "version": "2.0.0",
+  "version": "0.0.2",
   "description": "This repository provides the Cookie Notice banner used by the University of Illinois.",
   "main": "js/ila-cookie-banner.js",
   "directories": {
